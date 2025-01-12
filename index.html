@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none';">
+    <title>Custom Browser</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button id="back">⬅️</button>
+        <button id="forward">➡️</button>
+        <button id="refresh">🔄</button>
+        <input type="text" id="url" placeholder="Enter URL (e.g., vizz://example.huh)" />
+    </div>
+    <webview id="webview" src=""></webview>
+    <script src="./secure.js"></script>
+
+</body>
+</html>
